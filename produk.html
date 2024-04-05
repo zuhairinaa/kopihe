@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <title>Produk</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/produk.css">
+  <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+
+.bg-ganti{
+  background-color: saddlebrown;
+}
+
+  </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+  <nav class="navbar navbar-dark bg-ganti navbar-expand-md bisadicopy">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo/logo_kuy.png" height="50" alt="logo kopi kuy">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11" 
+      aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav11">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="index.html#best-seller">Best Seller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html#our-team">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html#review">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html#contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-light ms-md-3" href="https://wa.me/6281914502336"><i class="bi bi-whatsapp"></i> Chat</a>
+      </div>
+    </div>
+  </nav>
+  
+  <main>
+    <section class="riki-block produk text-center my-5 py-5">
+      <div class="container">
+        <h1>Pilih Produk Anda</h1>
+        <p class="fs-4">Nikmati kualitas terbaik biji kopi pilihan fresh langsung dari petani </p>
+        <hr class="border border-success border-3 opacity-75">
+
+        <!-- Ini Untuk Select -->
+        <div class="form-floating">
+          <select class="form-select" id="select_kopi" aria-label="Floating label select example">
+            <option selected disabled>-</option>
+            <option value="arabica">Arabica</option>
+            <option value="robusta">Robusta</option>
+            <option value="nonkopi">Non Kopi</option>
+          </select>
+          <label for="select_kopi">Pilih Jenis Produk</label>
+        </div>
+
+        <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://i.pinimg.com/736x/85/dd/f5/85ddf5eba8df9347ae10cdd31ca41e79.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Coffe Ice</h5>
+                <div class="row hargasize my-4">
+                  <div class="col">
+                    Regular
+                  </div>
+                  <div class="col text-primary fw-bold">
+                    Rp. 28.000
+                  </div>
+                </div>
+                <a href="#" class="btn btn-light w-100"><i class="bi bi-cart4"></i> Beli</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kopi Susu</h5>
+                <div class="row hargasize my-4">
+                  <div class="col">
+                    Regular
+                  </div>
+                  <div class="col text-primary fw-bold">
+                    Rp. 25.000
+                  </div>
+                </div>
+                <a href="#" class="btn btn-light w-100"><i class="bi bi-cart4"></i> Beli</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://foodfromclaudnine.nl/wp-content/uploads/2020/03/DSC_0480-768x960.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Frappucino</h5>
+                <div class="row hargasize my-4">
+                  <div class="col">
+                    Regular
+                  </div>
+                  <div class="col text-primary fw-bold">
+                    Rp. 30.000
+                  </div>
+                </div>
+                <a href="#" class="btn btn-light w-100"><i class="bi bi-cart4"></i> Beli</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card">
+              <img src="https://i.pinimg.com/736x/19/1c/87/191c87753eff6e47a0d084c08fa695be.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Matcha</h5>
+                <div class="row hargasize my-4">
+                  <div class="col">Regular
+                  </div>
+                  <div class="col text-primary fw-bold">
+                    Rp. 32.000
+                  </div>
+                </div>
+                <a href="#" class="btn btn-light w-100"><i class="bi bi-cart4"></i> Beli</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="riki-block footer-small py-4 bg-ganti">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-8">
+          <ul class="nav justify-content-center justify-content-md-start">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="index.html#best-seller">Best Seller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html#our-team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+          &copy; 2024 Kopikuy &amp; Team . All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/produk.js"></script>
+  <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+
+
+  </script>
+</body>
+
+</html>

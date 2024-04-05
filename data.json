@@ -1,0 +1,85 @@
+{
+    "Classic Coffe": [
+        {
+            "nama": "Espresso",
+            "foto": "https://i.pinimg.com/564x/8a/50/9e/8a509e80a255b25b54774a4437debf0e.jpg",
+            "harga": "20.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Americano",
+            "foto": "https://i.pinimg.com/736x/85/dd/f5/85ddf5eba8df9347ae10cdd31ca41e79.jpg",
+            "harga": "24.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Caffe Latte",
+            "foto": "https://i.pinimg.com/564x/2e/e8/12/2ee8124cf986d29f499202fac499698f.jpg    ",
+            "harga": "28.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Flat White",
+            "foto": "https://i.pinimg.com/564x/75/2a/53/752a53316931e7a5990c5514919515b7.jpg",
+            "harga": "26.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        }
+    ],
+    "Blend & Smooth": [
+        {
+            "nama": "Oh! Matcha",
+            "foto": "https://i.pinimg.com/736x/19/1c/87/191c87753eff6e47a0d084c08fa695be.jpg",
+            "harga": "32.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Red Cheese",
+            "foto": "https://i.pinimg.com/236x/23/ab/f8/23abf81e847c9a09fcc902adb22790ed.jpg",
+            "harga": "34.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Strawberry Nutcrackers",
+            "foto": "https://i.pinimg.com/564x/c8/a1/90/c8a190bf7b227a0cf3c49fe7942a1ab1.jpg",
+            "harga": "34.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Yellow Peach",
+            "foto": "https://i.pinimg.com/236x/25/26/ec/2526ecdfb2e476668f906777f7f31094.jpg",
+            "harga": "30.000",
+            "size": "250 Ml",
+            "link": "https://shopee.co.id"
+        }
+    ],
+    "Indonesian Heritage": [
+        {
+            "nama": "Epic Salmon Woku",
+            "foto": "https://i.pinimg.com/236x/a4/1e/d1/a41ed10f061884c300dbc07d646a6e05.jpg",
+            "harga": "55.000",
+            "size": "1 Plate",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Chicken Basil",
+            "foto": "https://i.pinimg.com/236x/f2/94/d4/f294d4181b94e9658022b25c8f56f62e.jpg",
+            "harga": "40.000",
+            "size": "1 Plate",
+            "link": "https://shopee.co.id"
+        },
+        {
+            "nama": "Grilled Chicken",
+            "foto": "https://i.pinimg.com/236x/e3/51/92/e3519207ac722ebea355b113cd77640a.jpg",
+            "harga": "40.000",
+            "size": "1 Plate",
+            "link": "https://shopee.co.id"
+        }
+    ]
+}
