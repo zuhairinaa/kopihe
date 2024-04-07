@@ -37,7 +37,7 @@ function updateTampilan() {
                                 ${kopi.harga}
                             </div>
                         </div>
-                        <a href="${kopi.link}" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        <a href="${kopi.link}" class="btn btn-warning w-100"><i class="bi bi-cart4"></i> Beli</a>
                     </div>
                 </div>
             </div>`
